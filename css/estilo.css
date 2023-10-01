@@ -8,96 +8,51 @@
 .fondoIndex {
   background-image: url(../images/fondo3.jpg);
 }
-
-.fondoTurnos {
-  background-image: url(../images/fondo5.webp);
-}
-
-.fondoFrecuentes {
-  background-image: url(../images/frecuentes.jpg);
-}
-
-.fondoApp {
-  background-image: url(../images/gymAPP.jpg);
-}
-
-.ubicacion {
-  width: 100%;
-  margin: 20 auto;
-}
-
-.tabla {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.letraTabla {
-  font-family: "Fuggles", cursive;
-  padding: 30%;
-  color: red;
-}
-
-.cards {
-  width: 130px;
-}
-
-.logo {
+.fondoIndex header nav div .logo {
   width: 75px;
 }
-
-.titulo {
+.fondoIndex header nav div div ul .titulo {
   font-family: "Fuggles", cursive;
   color: rgb(133, 57, 57);
   width: 200px;
 }
-
-.subTitulo {
-  font-family: "Fuggles", cursive;
-  font-family: "Oswald", sans-serif;
-  color: rgb(133, 57, 57);
-}
-
-.colorPropio {
-  background-image: url(../images/fondo3.jpg);
-}
-
-.colorCards {
-  background-color: rgb(34, 33, 33);
-}
-
-.colorLetra {
+.fondoIndex header nav div div ul .colorLetra {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(133, 57, 57);
 }
 
-.colorLetraDos {
+.fondoIndex main .subTitulo {
+  font-family: "Oswald", sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoIndex .cont .row div .colorPropio {
+  background-image: url(../images/fondo3.jpg);
+}
+.fondoIndex .cont .row div .colorPropio div .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoIndex section .fondo {
+  background-color: black;
+}
+.fondoIndex section .colorLetraDos {
   color: rgb(133, 57, 57);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
-.container {
-  width: 100%;
-  /* height: 10vh; */
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+.fondoIndex section div div div h2 .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
 }
-
-.btnClick:hover {
-  color: white;
-  border-radius: 5px;
-}
-
-.fondo {
-  background-color: black;
+.fondoIndex section div div div div div .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
 }
 
 .pie-pagina {
   width: 100%;
-  /* background-color: #0a141d; */
 }
-
 .pie-pagina .grupo-1 {
   width: 100%;
   max-width: 1200px;
@@ -107,7 +62,6 @@
   grid-gap: 50px;
   padding: 45px 0px;
 }
-
 .pie-pagina .grupo-1 .box figure {
   width: 100%;
   height: 100%;
@@ -115,22 +69,18 @@
   justify-content: center;
   align-items: center;
 }
-
 .pie-pagina .grupo-1 .box figure img {
   width: 150px;
 }
-
 .pie-pagina .grupo-1 .box h2 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
 }
-
 .pie-pagina .grupo-1 .box p {
   color: #efefef;
   margin-bottom: 10px;
 }
-
 .pie-pagina .grupo-1 .red-social a {
   display: inline-block;
   text-decoration: none;
@@ -139,22 +89,17 @@
   line-height: 45px;
   color: #fff;
   margin-right: 10px;
-  /* background-color: #022033; */
   text-align: center;
   transition: all 300ms ease;
 }
-
 .pie-pagina .grupo-1 .red-social a:hover {
   color: red;
 }
-
 .pie-pagina .grupo-2 {
-  /* background-color: #0a1a2a; */
   padding: 15px 10px;
   text-align: center;
   color: #fff;
 }
-
 .pie-pagina .grupo-2 small {
   font-size: 15px;
 }
@@ -166,10 +111,6 @@
     grid-gap: 30px;
     padding: 35px 0px;
   }
-}
-.formulario {
-  width: 500px;
-  margin: 20 auto;
 }
 
 /*# sourceMappingURL=estilo.css.map */
