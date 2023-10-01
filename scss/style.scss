@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&family=Oswald:wght@700&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondoIndex{
+    background-image: url(../images/fondo3.jpg);
+}
+
+.fondoTurnos{
+    background-image: url(../images/fondo5.webp);
+}
+
+.fondoFrecuentes{
+    background-image: url(../images/frecuentes.jpg);
+}
+
+.fondoApp{
+    background-image: url(../images/gymAPP.jpg);
+}
+
+.ubicacion{
+    width: 100%;
+    margin: 20 auto;
+}
+
+.tabla{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.letraTabla{
+    font-family: 'Fuggles', cursive;
+    padding: 30%;
+    color: red;
+}
+
+.cards{
+    width: 130px;
+}
+
+.logo{
+    width: 75px;
+}
+
+.titulo{
+    font-family: 'Fuggles', cursive;
+    color: rgb(133, 57, 57);
+    width: 200px;
+}
+
+.subTitulo{
+    font-family: 'Fuggles', cursive;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(133, 57, 57);
+}
+
+.colorPropio{
+    background-image: url(../images/fondo3.jpg); 
+}
+
+.colorCards{
+    background-color: rgb(34, 33, 33);
+}
+
+.colorLetra{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(133, 57, 57);
+}
+
+.colorLetraDos{
+    color: rgb(133, 57, 57);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,        sans-serif
+}
+
+.container{
+    width: 100%;
+  /* height: 10vh; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.btnClick:hover{
+    color: white;
+    border-radius: 5px;
+}
+
+.fondo{
+    background-color: black;
+}
+
+.pie-pagina{
+    width: 100%;
+  /* background-color: #0a141d; */
+}
+
+.pie-pagina .grupo-1{ width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+  /* background-color: #022033; */
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: red;
+}
+
+.pie-pagina .grupo-2{
+  /* background-color: #0a1a2a; */
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px){
+.pie-pagina .grupo-1{
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+}
+}
+
+.formulario{
+    width: 500px;
+    margin: 20 auto;
+}
