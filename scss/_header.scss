@@ -30,6 +30,10 @@
             div {
                 .logo {
                     width: 75px;
+                    transition: all 1.5s ease;
+                    &:hover{
+                        transform: scale(1.2,1);
+                    }
                 }
                 div {
                     ul {

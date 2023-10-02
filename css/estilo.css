@@ -10,6 +10,10 @@ header {
 }
 header nav div .logo {
   width: 75px;
+  transition: all 1.5s ease;
+}
+header nav div .logo:hover {
+  transform: scale(1.2, 1);
 }
 header nav div div ul .titulo {
   font-family: "Fuggles", cursive;
@@ -46,6 +50,10 @@ footer {
 }
 .pie-pagina .grupo-1 .box figure img {
   width: 150px;
+  transition: all 1.5s ease;
+}
+.pie-pagina .grupo-1 .box figure img:hover {
+  transform: scale(1.2, 1);
 }
 .pie-pagina .grupo-1 .box h2 {
   color: #fff;
@@ -97,6 +105,12 @@ footer {
 
 .fondoIndex .cont .row div .colorPropio {
   background-image: url(../images/fondo3.jpg);
+}
+.fondoIndex .cont .row div .colorPropio .animacion {
+  transition: all 1s ease;
+}
+.fondoIndex .cont .row div .colorPropio .animacion:hover {
+  transform: scale(1.07, 1);
 }
 .fondoIndex .cont .row div .colorPropio div .colorLetra {
   font-family: Arial, Helvetica, sans-serif;

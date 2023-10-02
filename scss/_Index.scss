@@ -12,6 +12,12 @@
             div{
                 .colorPropio{
                     background-image: url(../images/fondo3.jpg);
+                    .animacion{
+                        transition: all 1s ease;
+                        &:hover{
+                            transform: scale(1.07, 1);
+                        }
+                    }
                     div{
                         .colorLetra{
                             font-family: $fontFamily3;
