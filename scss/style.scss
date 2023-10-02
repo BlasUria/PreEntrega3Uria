@@ -1,154 +1,20 @@
 @import "_variables";
 @import "_generales";
 
-.fondoIndex {
-background-image: url(../images/fondo3.jpg);
-    header {
-        nav {
-            div {
-                .logo {
-                    width: 75px;
-                }
-                div {
-                    ul {
-                        .titulo{
-                            font-family: $fontFamily1;
-                            color: $colorDos;
-                            width: 200px;
-                        }
-                        .colorLetra{
-                            font-family: $fontFamily3;
-                            color: $colorDos;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-.fondoIndex{
-    main{
-        .subTitulo{
-            font-family: $fontFamily2;
-            color: $colorDos;
-        }
-    }
-}
+@import "_header";
+@import "_footer";
 
-.fondoIndex{
-    .cont{
-        .row{
-            div{
-                .colorPropio{
-                    background-image: url(../images/fondo3.jpg);
-                    div{
-                        .colorLetra{
-                            font-family: $fontFamily3;
-                            color: $colorDos;
-                        }
-                    } 
-                }
-            }
-        }
-    }
-}
+// INDEX
+@import "_Index";
 
-.fondoIndex{
-    section{
-        .fondo{
-            background-color: black;
-        }
-        .colorLetraDos{
-            color: $colorDos;
-            font-family: $fontFamily4;
-        }
-        div{
-            div{
-                div{
-                    h2{
-                        .colorLetra{
-                            font-family: $fontFamily3;
-                            color: $colorDos;
-                        }
-                    }
-                    div{
-                        div{
-                            .colorLetra{
-                                font-family: $fontFamily3;
-                                color: $colorDos;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
+// // PAGINA HORARIOS
+@import "_pageHorarios";
 
-.pie-pagina {
-	width: 100%;
-	.grupo-1 {
-		width: 100%;
-		max-width: 1200px;
-		margin: auto;
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		grid-gap: 50px;
-		padding: 45px 0px;
-		.box {
-			figure {
-				width: 100%;
-				height: 100%;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				img {
-					width: 150px;
-				}
-			}
-			h2 {
-				color: $colorCuatro;
-				margin-bottom: 25px;
-				font-size: 20px;
-			}
-			p {
-				color: $colorCinco;
-				margin-bottom: 10px;
-			}
-		}
-		.red-social {
-			a {
-				display: inline-block;
-				text-decoration: none;
-				width: 45px;
-				height: 45px;
-				line-height: 45px;
-				color: $colorCuatro;
-				margin-right: 10px;
-				text-align: center;
-				transition: all 300ms ease;
-				&:hover {
-					color: $colorUno;
-				}
-			}
-		}
-	}
-	.grupo-2 {
-		padding: 15px 10px;
-		text-align: center;
-		color: $colorCuatro;
-		small {
-			font-size: 15px;
-		}
-	}
-}
-@media screen and (max-width: 800px) {
-	.pie-pagina {
-		.grupo-1 {
-			width: 90%;
-			grid-template-columns: repeat(1, 1fr);
-			grid-gap: 30px;
-			padding: 35px 0px;
-		}
-	}
-}
+// // PAGINA UBICACION
+// @import "";
+
+// // PAGINA BENEFICIOS
+// @import "";
+
+// // PAGINA FRECUENTES
+// @import "";

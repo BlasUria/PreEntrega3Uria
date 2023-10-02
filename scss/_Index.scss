@@ -1,0 +1,57 @@
+.fondoIndex{
+    background-image: url(../images/fondo3.jpg);
+        .subTitulo{
+            font-family: $fontFamily2;
+            color: $colorDos;
+        }
+    }
+
+.fondoIndex{
+    .cont{
+        .row{
+            div{
+                .colorPropio{
+                    background-image: url(../images/fondo3.jpg);
+                    div{
+                        .colorLetra{
+                            font-family: $fontFamily3;
+                            color: $colorDos;
+                        }
+                    } 
+                }
+            }
+        }
+    }
+}
+
+.fondoIndex{
+    section{
+        .fondo{
+            background-color: black;
+        }
+        .colorLetraDos{
+            color: $colorDos;
+            font-family: $fontFamily4;
+        }
+        div{
+            div{
+                div{
+                    h2{
+                        .colorLetra{
+                            font-family: $fontFamily3;
+                            color: $colorDos;
+                        }
+                    }
+                    div{
+                        div{
+                            .colorLetra{
+                                font-family: $fontFamily3;
+                                color: $colorDos;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

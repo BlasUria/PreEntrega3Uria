@@ -5,49 +5,24 @@
   box-sizing: border-box;
 }
 
-.fondoIndex {
-  background-image: url(../images/fondo3.jpg);
+header {
+  background: linear-gradient(rgb(40, 40, 40), black, rgb(40, 40, 40));
 }
-.fondoIndex header nav div .logo {
+header nav div .logo {
   width: 75px;
 }
-.fondoIndex header nav div div ul .titulo {
+header nav div div ul .titulo {
   font-family: "Fuggles", cursive;
   color: rgb(133, 57, 57);
   width: 200px;
 }
-.fondoIndex header nav div div ul .colorLetra {
+header nav div div ul .colorLetra {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(133, 57, 57);
 }
 
-.fondoIndex main .subTitulo {
-  font-family: "Oswald", sans-serif;
-  color: rgb(133, 57, 57);
-}
-
-.fondoIndex .cont .row div .colorPropio {
-  background-image: url(../images/fondo3.jpg);
-}
-.fondoIndex .cont .row div .colorPropio div .colorLetra {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(133, 57, 57);
-}
-
-.fondoIndex section .fondo {
-  background-color: black;
-}
-.fondoIndex section .colorLetraDos {
-  color: rgb(133, 57, 57);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.fondoIndex section div div div h2 .colorLetra {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(133, 57, 57);
-}
-.fondoIndex section div div div div div .colorLetra {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(133, 57, 57);
+footer {
+  background: radial-gradient(circle, rgb(40, 40, 40), black, rgb(40, 40, 40));
 }
 
 .pie-pagina {
@@ -111,6 +86,66 @@
     grid-gap: 30px;
     padding: 35px 0px;
   }
+}
+.fondoIndex {
+  background-image: url(../images/fondo3.jpg);
+}
+.fondoIndex .subTitulo {
+  font-family: "Oswald", sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoIndex .cont .row div .colorPropio {
+  background-image: url(../images/fondo3.jpg);
+}
+.fondoIndex .cont .row div .colorPropio div .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoIndex section .fondo {
+  background-color: black;
+}
+.fondoIndex section .colorLetraDos {
+  color: rgb(133, 57, 57);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fondoIndex section div div div h2 .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoIndex section div div div div div .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoTurnos {
+  background-image: url(../images/fondo5.webp);
+}
+.fondoTurnos .contenedorTabla {
+  width: 100%;
+}
+.fondoTurnos .contenedorTabla .tabla {
+  width: 90%;
+  margin: 0 auto;
+}
+.fondoTurnos .contenedorTabla .tabla thead tr .letraTabla {
+  font-family: "Fuggles", cursive;
+  padding: 30%;
+  color: red;
+}
+
+.fondoTurnos .formulario {
+  width: 50%;
+  margin: 20 auto;
+}
+.fondoTurnos .formulario div .colorLetraDos {
+  color: rgb(133, 57, 57);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fondoTurnos .formulario button:hover {
+  color: blue;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

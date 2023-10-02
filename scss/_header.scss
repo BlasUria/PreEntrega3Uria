@@ -1,0 +1,49 @@
+// .fondoIndex {
+//     // background-image: url(../images/fondo3.jpg);
+//         header {
+//             background: linear-gradient(rgb(40, 40, 40), black, rgb(40, 40, 40),);
+//             nav {
+//                 div {
+//                     .logo {
+//                         width: 75px;
+//                     }
+//                     div {
+//                         ul {
+//                             .titulo{
+//                                 font-family: $fontFamily1;
+//                                 color: $colorDos;
+//                                 width: 200px;
+//                             }
+//                             .colorLetra{
+//                                 font-family: $fontFamily3;
+//                                 color: $colorDos;
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+    header {
+        background: linear-gradient(rgb(40, 40, 40), black, rgb(40, 40, 40),);
+        nav {
+            div {
+                .logo {
+                    width: 75px;
+                }
+                div {
+                    ul {
+                        .titulo{
+                            font-family: $fontFamily1;
+                            color: $colorDos;
+                            width: 200px;
+                        }
+                        .colorLetra{
+                            font-family: $fontFamily3;
+                            color: $colorDos;
+                        }
+                    }
+                }
+            }
+        }
+    }

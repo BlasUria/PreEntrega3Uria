@@ -1,0 +1,38 @@
+.fondoTurnos{
+    background-image: url(../images/fondo5.webp);
+    .contenedorTabla{
+        width: 100%;
+        .tabla{
+            width: 90%;
+            margin: 0 auto;
+            thead{
+                tr{
+                    .letraTabla{
+                        font-family: $fontFamily1;
+                        padding: 30%;
+                        color: $colorUno;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fondoTurnos{
+    .formulario{
+        width: 50%;
+        margin: 20 auto;
+        div{
+            .colorLetraDos{
+                color: $colorDos;
+                font-family: $fontFamily4;
+            }
+        }
+        button{
+            &:hover {
+                color: blue;
+                border-radius: 20px;
+            }
+        }
+    }
+}
