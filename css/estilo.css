@@ -55,7 +55,7 @@ footer {
 .pie-pagina .grupo-1 .box figure img:hover {
   transform: scale(1.2, 1);
 }
-.pie-pagina .grupo-1 .box h2 {
+.pie-pagina .grupo-1 .box h3 {
   color: #fff;
   margin-bottom: 25px;
   font-size: 20px;
@@ -124,7 +124,7 @@ footer {
   color: rgb(133, 57, 57);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.fondoIndex section div div div h2 .colorLetra {
+.fondoIndex section div div div h3 .colorLetra {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(133, 57, 57);
 }
