@@ -148,4 +148,66 @@ footer {
   border-radius: 20px;
 }
 
+.fondoApp {
+  background-image: url(../images/gymAPP.jpg);
+}
+.fondoApp .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoApp .colorLetraDos {
+  color: rgb(133, 57, 57);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fondoApp .ubicacion {
+  width: 100%;
+  margin: 20 auto;
+}
+
+.fondoApp {
+  background-image: url(../images/gymAPP.jpg);
+}
+.fondoApp .subTitulo {
+  font-family: "Oswald", sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoApp section .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+
+.fondoFrecuentes {
+  background-image: url(../images/frecuentes.jpg);
+  height: 100vh;
+}
+.fondoFrecuentes .fondo {
+  background-color: black;
+}
+.fondoFrecuentes .colorLetraDos {
+  color: rgb(133, 57, 57);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fondoFrecuentes div div div h2 .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoFrecuentes div div div div div .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoFrecuentes section .tamanoLetra {
+  font-size: 150%;
+}
+.fondoFrecuentes section .tamaLetra {
+  font-size: 250%;
+}
+.fondoFrecuentes section .colorLetra {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(133, 57, 57);
+}
+.fondoFrecuentes section .colorLetraDos {
+  color: rgb(133, 57, 57);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 /*# sourceMappingURL=estilo.css.map */

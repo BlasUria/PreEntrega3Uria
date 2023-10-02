@@ -1,0 +1,15 @@
+.fondoApp{
+    background-image: url(../images/gymAPP.jpg);
+    .colorLetra{
+        font-family: $fontFamily3;
+        color: $colorDos;
+    }
+    .colorLetraDos{
+        color: $colorDos;
+        font-family: $fontFamily4;
+    }
+    .ubicacion{
+        width: 100%;
+        margin: 20 auto;
+    }
+}

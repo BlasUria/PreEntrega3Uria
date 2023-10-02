@@ -1,0 +1,13 @@
+.fondoApp{
+    background-image: url(../images/gymAPP.jpg);
+    .subTitulo{
+        font-family: $fontFamily2;
+        color: $colorDos;
+    }
+    section{
+        .colorLetra{
+            font-family: $fontFamily3;
+            color: $colorDos;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.fondoFrecuentes{
+    background-image: url(../images/frecuentes.jpg);
+    height: 100vh;
+    .fondo{
+        background-color: black;
+    }
+    .colorLetraDos{
+        color: $colorDos;
+        font-family: $fontFamily4;
+    }
+    div{
+        div{
+            div{
+                h2{
+                    .colorLetra{
+                        font-family: $fontFamily3;
+                        color: $colorDos;
+                    }
+                }
+                div{
+                    div{
+                        .colorLetra{
+                            font-family: $fontFamily3;
+                            color: $colorDos;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    section{
+        .tamanoLetra{
+            font-size: 150%;
+        }
+        .tamaLetra{
+            font-size: 250%;
+        }
+        .colorLetra{
+            font-family: $fontFamily3;
+            color: $colorDos;
+        }
+        .colorLetraDos{
+            color: $colorDos;
+            font-family: $fontFamily4;
+        }
+    }
+}
