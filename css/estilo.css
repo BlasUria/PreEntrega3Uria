@@ -212,13 +212,6 @@ footer {
 .fondoFrecuentes section .tamanoLetra {
   font-size: 150%;
 }
-.fondoFrecuentes section .tamaLetra {
-  font-size: 250%;
-}
-.fondoFrecuentes section .colorLetra {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(133, 57, 57);
-}
 .fondoFrecuentes section .colorLetraDos {
   color: rgb(133, 57, 57);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
